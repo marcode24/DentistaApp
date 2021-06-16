@@ -20,7 +20,7 @@ __fastcall TFormNewDentista::TFormNewDentista(TComponent* Owner)
 //---------------------------------------------------------------------------
 void __fastcall TFormNewDentista::FormCreate(TObject *Sender)
 {
-	SQLConnection1->Params->Add("Database=C:\\Users\\karla\\Documents\\Embarcadero\\Studio\\Projects\\Dentista\\Dentista1.db");
+	SQLConnection1->Params->Add("Tu link de la base aqui");
 	try {
 		SQLConnection1->Open();
 		SQLConnection1->Connected = true;

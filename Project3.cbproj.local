@@ -3,24 +3,28 @@
 	<Transactions>
     <Transaction>2021/06/14 23:58:24.000.703,=C:\Users\karla\Documents\Embarcadero\Studio\Projects\Project3PCH1.h</Transaction>
     <Transaction>2021/06/14 23:58:25.000.553,=C:\Users\karla\Documents\Embarcadero\Studio\Projects\Unit3.cpp</Transaction>
-    <Transaction>2021/06/14 23:58:53.000.998,C:\Users\karla\Documents\Embarcadero\Studio\Projects\Unit3.dfm=C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\Unit3.dfm</Transaction>
-    <Transaction>2021/06/14 23:58:53.000.998,C:\Users\karla\Documents\Embarcadero\Studio\Projects\Unit3.cpp=C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\Unit3.cpp</Transaction>
-    <Transaction>2021/06/14 23:58:53.000.998,C:\Users\karla\Documents\Embarcadero\Studio\Projects\Unit3.h=C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\Unit3.h</Transaction>
-    <Transaction>2021/06/14 23:58:57.000.888,C:\Users\karla\Documents\Embarcadero\Studio\Projects\Project3PCH1.h=C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\Project3PCH1.h</Transaction>
-    <Transaction>2021/06/14 23:59:02.000.298,C:\Users\karla\Documents\Embarcadero\Studio\Projects\Project3.cbproj=C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\Project3.cbproj</Transaction>
+    <Transaction>2021/06/14 23:58:53.000.998,C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\Unit3.h=C:\Users\karla\Documents\Embarcadero\Studio\Projects\Unit3.h</Transaction>
+    <Transaction>2021/06/14 23:58:53.000.998,C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\Unit3.dfm=C:\Users\karla\Documents\Embarcadero\Studio\Projects\Unit3.dfm</Transaction>
+    <Transaction>2021/06/14 23:58:53.000.998,C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\Unit3.cpp=C:\Users\karla\Documents\Embarcadero\Studio\Projects\Unit3.cpp</Transaction>
+    <Transaction>2021/06/14 23:58:57.000.888,C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\Project3PCH1.h=C:\Users\karla\Documents\Embarcadero\Studio\Projects\Project3PCH1.h</Transaction>
+    <Transaction>2021/06/14 23:59:02.000.298,C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\Project3.cbproj=C:\Users\karla\Documents\Embarcadero\Studio\Projects\Project3.cbproj</Transaction>
     <Transaction>2021/06/15 11:25:07.000.944,=C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\Unit1.cpp</Transaction>
-    <Transaction>2021/06/15 11:25:22.000.116,C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\newDentista.dfm=C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\Unit1.dfm</Transaction>
-    <Transaction>2021/06/15 11:25:22.000.116,C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\newDentista.h=C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\Unit1.h</Transaction>
-    <Transaction>2021/06/15 11:25:22.000.116,C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\newDentista.cpp=C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\Unit1.cpp</Transaction>
-    <Transaction>2021/06/15 11:39:57.000.150,C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\inicio.cpp=C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\Unit3.cpp</Transaction>
-    <Transaction>2021/06/15 11:39:57.000.150,C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\inicio.dfm=C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\Unit3.dfm</Transaction>
-    <Transaction>2021/06/15 11:39:57.000.150,C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\inicio.h=C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\Unit3.h</Transaction>
+    <Transaction>2021/06/15 11:25:22.000.116,C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\Unit1.h=C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\newDentista.h</Transaction>
+    <Transaction>2021/06/15 11:25:22.000.116,C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\Unit1.cpp=C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\newDentista.cpp</Transaction>
+    <Transaction>2021/06/15 11:25:22.000.116,C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\Unit1.dfm=C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\newDentista.dfm</Transaction>
+    <Transaction>2021/06/15 11:39:57.000.150,C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\Unit3.dfm=C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\inicio.dfm</Transaction>
+    <Transaction>2021/06/15 11:39:57.000.150,C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\Unit3.cpp=C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\inicio.cpp</Transaction>
+    <Transaction>2021/06/15 11:39:57.000.150,C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\Unit3.h=C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\inicio.h</Transaction>
     <Transaction>2021/06/15 12:23:03.000.112,=C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\File1.cpp</Transaction>
-    <Transaction>2021/06/15 12:23:26.000.931,C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\File1.cpp=C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\dentista.cpp</Transaction>
+    <Transaction>2021/06/15 12:23:26.000.931,C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\dentista.cpp=C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\File1.cpp</Transaction>
     <Transaction>2021/06/15 12:33:55.000.155,C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\dentista.cpp=</Transaction>
     <Transaction>2021/06/15 13:37:48.000.278,=C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\Unit1.cpp</Transaction>
-    <Transaction>2021/06/15 13:37:54.000.929,C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\Unit1.dfm=C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\newPaciente.dfm</Transaction>
-    <Transaction>2021/06/15 13:37:54.000.929,C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\Unit1.h=C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\newPaciente.h</Transaction>
-    <Transaction>2021/06/15 13:37:54.000.929,C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\Unit1.cpp=C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\newPaciente.cpp</Transaction>
+    <Transaction>2021/06/15 13:37:54.000.929,C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\newPaciente.cpp=C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\Unit1.cpp</Transaction>
+    <Transaction>2021/06/15 13:37:54.000.929,C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\newPaciente.dfm=C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\Unit1.dfm</Transaction>
+    <Transaction>2021/06/15 13:37:54.000.929,C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\newPaciente.h=C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\Unit1.h</Transaction>
+    <Transaction>2021/06/15 19:44:39.342,=C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\Unit1.cpp</Transaction>
+    <Transaction>2021/06/15 19:44:51.936,C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\historial.h=C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\Unit1.h</Transaction>
+    <Transaction>2021/06/15 19:44:51.936,C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\historial.dfm=C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\Unit1.dfm</Transaction>
+    <Transaction>2021/06/15 19:44:51.936,C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\historial.cpp=C:\Users\karla\Documents\Embarcadero\Studio\Projects\Dentista\Unit1.cpp</Transaction>
   </Transactions>
 </BorlandProject>

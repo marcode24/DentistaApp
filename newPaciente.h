@@ -32,6 +32,7 @@ __published:	// IDE-managed Components
 	TLabel *Label5;
 	TComboBox *cmbDentistas;
 	void __fastcall FormCreate(TObject *Sender);
+	void __fastcall btnGuardarClick(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
 	__fastcall TFormNewPaciente(TComponent* Owner);

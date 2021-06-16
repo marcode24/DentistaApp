@@ -1,5 +1,9 @@
 DBXSqliteDriver270.bpl
 dbexpress270.bpl
+bindengine270.bpl
+vclimg270.bpl
+vclwinx270.bpl
+vcldb270.bpl
 DbxCommonDriver270.bpl
 dbrtl270.bpl
 vcl270.bpl
