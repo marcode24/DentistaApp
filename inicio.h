@@ -35,10 +35,11 @@ __published:	// IDE-managed Components
 	void __fastcall btnNuevoDentistaClick(TObject *Sender);
 	void __fastcall btnNuevoPacienteClick(TObject *Sender);
 	void __fastcall btnBuscarClick(TObject *Sender);
-	void __fastcall FormCreate(TObject *Sender);
 	void __fastcall btnCancelarClick(TObject *Sender);
 	void __fastcall btnGuardarClick(TObject *Sender);
 	void __fastcall btnHistorialClick(TObject *Sender);
+	void __fastcall FormClose(TObject *Sender, TCloseAction &Action);
+	void __fastcall FormCreate(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
 	__fastcall TInicio(TComponent* Owner);

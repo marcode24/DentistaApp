@@ -20,7 +20,7 @@ __fastcall TFormNewDentista::TFormNewDentista(TComponent* Owner)
 //---------------------------------------------------------------------------
 void __fastcall TFormNewDentista::FormCreate(TObject *Sender)
 {
-	SQLConnection1->Params->Add("Tu link de la base aqui");
+	SQLConnection1->Params->Values["Database"] = "link";
 	try {
 		SQLConnection1->Open();
 		SQLConnection1->Connected = true;
@@ -39,6 +39,8 @@ void __fastcall TFormNewDentista::btnGuardarClick(TObject *Sender)
 	Int64 telefono = StrToInt(txtPhone->Text);
 	String consulta = "INSERT INTO Dentista(nombre, apellido, telefono, sexo, nacimiento) VALUES (:Nombre, :Apellido, :Telefono, :Sexo, :Nacimiento);";
 	try {
+    	SQLConnection1->Open();
+		SQLConnection1->Connected = true;
 		SQLQuery1->SQL->Clear();
 		SQLQuery1->SQL->Add(consulta);
 		SQLQuery1->ParamByName("Nombre")->AsString = nombre;

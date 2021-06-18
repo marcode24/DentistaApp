@@ -1,0 +1,60 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "historial.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TFormHistorial *FormHistorial;
+//---------------------------------------------------------------------------
+__fastcall TFormHistorial::TFormHistorial(TComponent* Owner)
+	: TForm(Owner)
+{
+	SQLConnection1->Params->Values["Database"] = "C:\\Users\\karla\\Desktop\\Dentista2.db";
+}
+//---------------------------------------------------------------------------
+void __fastcall TFormHistorial::FormCreate(TObject *Sender)
+{
+
+	try {
+		SQLConnection1->Open();
+		SQLConnection1->Connected = true;
+	} catch (EDatabaseError& E) {
+		ShowMessage("Error Conexion:" + E.Message);
+	}
+}
+//---------------------------------------------------------------------------
+void __fastcall TFormHistorial::btnBuscarClick(TObject *Sender)
+{
+	String pacienteId = txtFolio->Text;
+	try {
+		SQLConnection1->Open();
+		SQLConnection1->Connected = true;
+		String pacienteId = txtFolio->Text;
+		SQLQuery1->Close();
+		SQLQuery1->SQL->Clear();
+
+		SQLQuery1->SQL->Add("SELECT id, nombre, apellido FROM Paciente WHERE id = :id;");
+		SQLQuery1->ParamByName("id")->Value = pacienteId;
+		SQLQuery1->Open();
+		if(!SQLQuery1->Eof) {
+			String nombreCompleto = SQLQuery1->FieldByName("nombre")->AsString +" "+ SQLQuery1->FieldByName("apellido")->AsString;
+			txtNombre->Text = nombreCompleto;
+		} else {
+			ShowMessage("Paciente no encontrado, intente de nuevo");
+			txtNombre->Text = "";
+		}
+	} catch(Exception* e){
+		ShowMessage("Error lista Dentistas: " + e->Message);
+	}
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TFormHistorial::FormClose(TObject *Sender, TCloseAction &Action)
+{
+    SQLConnection1->Close();
+}
+//---------------------------------------------------------------------------
+

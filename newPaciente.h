@@ -33,6 +33,8 @@ __published:	// IDE-managed Components
 	TComboBox *cmbDentistas;
 	void __fastcall FormCreate(TObject *Sender);
 	void __fastcall btnGuardarClick(TObject *Sender);
+	void __fastcall btnCancelarClick(TObject *Sender);
+	void __fastcall FormClose(TObject *Sender, TCloseAction &Action);
 private:	// User declarations
 public:		// User declarations
 	__fastcall TFormNewPaciente(TComponent* Owner);

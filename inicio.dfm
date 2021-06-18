@@ -12,6 +12,7 @@ object Inicio: TInicio
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
+  OnClose = FormClose
   OnCreate = FormCreate
   PixelsPerInch = 96
   TextHeight = 13
@@ -97,7 +98,7 @@ object Inicio: TInicio
   end
   object txtPrecio: TMaskEdit
     Left = 79
-    Top = 247
+    Top = 242
     Width = 50
     Height = 21
     Enabled = False
@@ -135,6 +136,7 @@ object Inicio: TInicio
   end
   object SQLConnection1: TSQLConnection
     DriverName = 'Sqlite'
+    KeepConnection = False
     LoginPrompt = False
     Params.Strings = (
       'DriverUnit=Data.DbxSqlite'
@@ -145,7 +147,6 @@ object Inicio: TInicio
         'MetaDataPackageLoader=TDBXSqliteMetaDataCommandFactory,DbxSqlite' +
         'Driver200.bpl'
       'FailIfMissing=True')
-    Connected = True
     Left = 8
     Top = 263
   end

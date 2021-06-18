@@ -2,8 +2,8 @@ object FormHistorial: TFormHistorial
   Left = 0
   Top = 0
   Caption = 'Historial de Pacientes'
-  ClientHeight = 313
-  ClientWidth = 413
+  ClientHeight = 321
+  ClientWidth = 418
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -11,6 +11,8 @@ object FormHistorial: TFormHistorial
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
+  Position = poDesigned
+  OnClose = FormClose
   OnCreate = FormCreate
   PixelsPerInch = 96
   TextHeight = 13
@@ -27,6 +29,13 @@ object FormHistorial: TFormHistorial
     Width = 26
     Height = 13
     Caption = 'Folio:'
+  end
+  object Label3: TLabel
+    Left = 32
+    Top = 93
+    Width = 38
+    Height = 13
+    Caption = 'Historial'
   end
   object txtNombre: TEdit
     Left = 79
@@ -52,20 +61,26 @@ object FormHistorial: TFormHistorial
     TabOrder = 2
     OnClick = btnBuscarClick
   end
-  object DBGrid1: TDBGrid
-    Left = 49
-    Top = 120
-    Width = 320
-    Height = 120
+  object ListHistoria: TListBox
+    Left = 79
+    Top = 93
+    Width = 290
+    Height = 145
+    ItemHeight = 13
     TabOrder = 3
-    TitleFont.Charset = DEFAULT_CHARSET
-    TitleFont.Color = clWindowText
-    TitleFont.Height = -11
-    TitleFont.Name = 'Tahoma'
-    TitleFont.Style = []
+  end
+  object btnCancelar: TButton
+    Left = 294
+    Top = 264
+    Width = 75
+    Height = 25
+    Caption = 'Regresar'
+    TabOrder = 4
+    OnClick = btnCancelarClick
   end
   object SQLConnection1: TSQLConnection
     DriverName = 'Sqlite'
+    KeepConnection = False
     LoginPrompt = False
     Params.Strings = (
       'DriverUnit=Data.DbxSqlite'
